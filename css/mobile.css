@@ -1,0 +1,64 @@
+/* compatibilité mobile */
+@media (max-width: 750px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    min-height: unset;
+    justify-content: center;
+    
+
+  }
+
+  .company-name {
+    font-size: 1.2em;
+    gap: 0.5em;
+  }
+
+  /*mettre les sections vertical sur petit ecran */
+  .information {
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  section {
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  nav{
+    min-height: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: visible;      
+   white-space: normal;
+  }
+
+  a {
+  display: block;
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+ }
+
+ header {
+  font-size: clamp(1rem, 1vw, h1);
+ }
+
+ h3{
+  display: block;
+  
+ }
+ main{
+  margin-top: 30px;
+ }
+}

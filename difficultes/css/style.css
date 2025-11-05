@@ -1,0 +1,29 @@
+/* Conteneur principal de la page "Difficultés" */
+main.difficultes {
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+/* Section de contenu */
+section.difficultes {
+    width: 420px;
+    margin: 0;
+    justify-self: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: block;
+}
+
+/* Lien de retour */
+a.retour {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+a.retour:hover {
+    color: #C8102E;
+    transition: color 0.3s ease;
+}
+
